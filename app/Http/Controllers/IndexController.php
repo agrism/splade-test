@@ -15,7 +15,7 @@ class IndexController extends Controller
             $this->toast($request);
         }
 
-        $this->seo();
+//        $this->seo();
 
         sleep(1);
 
