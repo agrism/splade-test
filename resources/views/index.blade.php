@@ -56,6 +56,21 @@
         </x-splade-toggle>
     </div>
 
+    <x-splade-data remember="menu" default="{ tab1: false, tab2: false, tab3: false }">
+        <input v-model="data.tab1" />
+
+        <aside v-show="data.tab1">
+            ...1
+        </aside>
+
+        <aside v-show="data.tab2">
+            ...2
+        </aside>
+
+        <aside v-show="data.tab3">
+            ...3
+        </aside>
+    </x-splade-data>
 
 
 
